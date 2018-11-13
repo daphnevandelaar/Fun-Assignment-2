@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+
+    <property name="connection.url">jdbc:mariadb://localhost:3306/factura2</property>
+    <property name="connection.driver_class">org.mariadb.jdbc.Driver</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password">1234</property>
+    <property name="hbm2ddl.auto">create</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.connection.release_mode">auto</property>
+    <property name="current_session_context_class">thread</property>
+    <property name="hibernate.connection.autoReconnect">true</property>
+      <mapping class="Models.Customer"/>
+      <mapping class="Models.Invoice"/>
+      <mapping class="Models.Task"/>
+
+  </session-factory>
+</hibernate-configuration>
