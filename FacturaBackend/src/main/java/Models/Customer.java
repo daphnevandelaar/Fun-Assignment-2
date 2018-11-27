@@ -12,13 +12,29 @@ public class Customer {
     private String firstname;
     private String lastname;
     private String address;     //street + housenumber
+    private String street;
+    private String housenumber;
+    private String zipcode;
     private String place;
     private String email;
     private String phonenumber;
     private Set<Invoice> invoices;
 
     public Customer() {
+    }
 
+    public Customer(int customerid, String firstname, String lastname, String street, String housenumber, String zipcode, String place, String email, String phonenumber, Set<Invoice> invoices) {
+        this.customerid = customerid;
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.address = street + housenumber;
+        this.street = street;
+        this.housenumber = housenumber;
+        this.zipcode = zipcode;
+        this.place = place;
+        this.email = email;
+        this.phonenumber = phonenumber;
+        this.invoices = invoices;
     }
 
     @Id
@@ -44,11 +60,33 @@ public class Customer {
         this.lastname = lastname;
     }
 
+    //TODO: create address from street + housenumber
     public String getAddress() {
         return address;
     }
-    public void setAddress(String address) {
+    private void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getHousenumber() {
+        return housenumber;
+    }
+    public void setHousenumber(String housenumber) {
+        this.housenumber = housenumber;
+    }
+
+    public String getZipcode() {
+        return zipcode;
+    }
+    public void setZipcode(String zipcode) {
+        this.zipcode = zipcode;
     }
 
     public String getPlace() {

@@ -428,6 +428,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DAL" />
+    </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="" />
       <recent name="Models" />
