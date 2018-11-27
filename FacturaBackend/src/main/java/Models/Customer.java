@@ -72,12 +72,4 @@ public class Customer {
         this.phonenumber = phonenumber;
     }
 
-    @OneToMany(mappedBy = "customer")
-    public Set<Invoice> getInvoices() {
-        return invoices;
-    }
-    public void setInvoices(Set<Invoice> invoices) {
-        this.invoices = invoices;
-    }
-
 }
