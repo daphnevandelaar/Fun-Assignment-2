@@ -1,7 +1,7 @@
 package DALTest;
 
+import DAL.CustomerDAL.CustomerService;
 import DAL.Factory.CustomerFactory;
-import DAL.Services.CustomerService;
 import Models.Customer;
 import org.junit.Assert;
 import org.junit.Before;
@@ -18,13 +18,10 @@ public class CustomerDbTest {
                    1,
                    "Test",
                    "Customer",
-                   "Teststreet",
-                   "25",
-                   "1234TT",
-                   "Testplace",
-                   "tester@test.com",
-                   "0612345678",
-                   null
+                   "1234TS",
+                   "someren",
+                   "tester@email.nl",
+                   "Testplace"
            );
     }
 
@@ -36,7 +33,7 @@ public class CustomerDbTest {
 
     @Test
     public void readCustomer(){
-        Customer customer = customerService.readById(1);
+        Customer customer = customerService.read(1);
         Assert.assertEquals(1, customer.getCustomerid());
     }
 }

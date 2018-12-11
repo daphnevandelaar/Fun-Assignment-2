@@ -64,23 +64,23 @@ public class Customer {
     public String getAddress() {
         return address;
     }
-    private void setAddress(String address) {
+    public void setAddress(String address) {
         this.address = address;
     }
 
-    public String getStreet() {
-        return street;
-    }
-    public void setStreet(String street) {
-        this.street = street;
-    }
-
-    public String getHousenumber() {
-        return housenumber;
-    }
-    public void setHousenumber(String housenumber) {
-        this.housenumber = housenumber;
-    }
+//    public String getStreet() {
+//        return street;
+//    }
+//    public void setStreet(String street) {
+//        this.street = street;
+//    }
+//
+//    public String getHousenumber() {
+//        return housenumber;
+//    }
+//    public void setHousenumber(String housenumber) {
+//        this.housenumber = housenumber;
+//    }
 
     public String getZipcode() {
         return zipcode;

@@ -2,31 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e21b9b8-3eb3-4870-a549-7f763865d84a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BBL/Business.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BBL/CustomerBusiness/CustomerBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerDAOImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAL/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAL/DAOImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAL/HibernateUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAL/SessionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/CustomerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/java/CustomerDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/java/CustomerDatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/java/DatabaseSessionsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/FacturaBackend_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_csv_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jsonSchema_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_alpn_client_9_2_6_v20141205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_2_6_v20141205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_2_6_v20141205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_6_v20141205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_2_6_v20141205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_6_v20141205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_spdy_spdy_client_9_2_6_v20141205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_spdy_spdy_core_9_2_6_v20141205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_spdy_spdy_http_common_9_2_6_v20141205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_spdy_spdy_http_server_9_2_6_v20141205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_spdy_spdy_server_9_2_6_v20141205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_3_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_restlet_jse_org_restlet_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_restlet_jse_org_restlet_ext_jackson_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_restlet_jse_org_restlet_ext_jetty_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BBL/CustomerBusiness/CustomerBusinessImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BBL/TaskBusiness/TaskBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BBL/TaskBusiness/TaskBusinessImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAL/Factory/TaskFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskDAOImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REST/resource/TasksResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REST/resource/server/TasksServerResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FacturaBackend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FacturaBackend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BBL/CustomerBusiness/CustomerBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BBL/CustomerBusiness/CustomerBusiness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAL/DAOImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAL/DAOImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAL/Factory/CustomerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAL/Factory/CustomerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAL/Services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAL/SessionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAL/SessionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/CustomerDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/CustomerDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DALTest/CustomerDbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DALTest/CustomerDbTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BBL/Business.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BBL/Business.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BBL/CustomerBusiness/CustomerBusiness.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BBL/CustomerBusiness/CustomerBusiness.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAL/CustomerDAL/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAL/CustomerDAL/CustomerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAL/CustomerDAL/CustomerDAOImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAL/CustomerDAL/CustomerDAOImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAL/DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAL/DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAL/DAOImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAL/DAOImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAL/Factory/CustomerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAL/Factory/CustomerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAL/HibernateQueryHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAL/HibernateQueryHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAL/HibernateUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAL/HibernateUtility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAL/Services/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAL/SessionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAL/SessionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Factory/CustomerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Factory/CustomerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Models/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Models/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Invoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Models/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Task.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CustomerDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CustomerDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CustomerDatabaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CustomerDatabaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DALTest/CustomerDbTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DALTest/CustomerDbTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DatabaseSessionsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DatabaseSessionsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,199 +117,11 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="factura2@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-914258782">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.191" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="8" />
-          <entry key="sql" value="1" />
-          <entry key="xml" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="8" />
-          <entry key="Scratch" value="1" />
-          <entry key="XML" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1181" />
-          <entry key="txt" value="8" />
-          <entry key="xml" value="141" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1181" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="XML" value="141" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="417343775">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="21" />
-          <entry key="xml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="21" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="11" />
-          <entry key="java" value="4031" />
-          <entry key="xml" value="103" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="4031" />
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="XML" value="103" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAL/DAOImplementation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#create#0;class#DAOImplementation#0" />
-                <element signature="method#readAll#0;class#DAOImplementation#0" />
-                <element signature="method#update#0;class#DAOImplementation#0" />
-                <element signature="method#delete#0;class#DAOImplementation#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BBL/CustomerBusiness/CustomerBusiness.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BBL/Business.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerDAOImplementation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/java/CustomerDatabaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="92" column="55" lean-forward="true" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#testCustomers#0;class#CustomerDatabaseTest#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAL/HibernateUtility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -260,28 +142,53 @@
         <option value="$PROJECT_DIR$/src/main/java/Models/Invoice.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAL/HibernateUtility.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/test/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/DAL/DAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/Factory/CustomerFactory.java" />
         <option value="$PROJECT_DIR$/src/main/test/java/DatabaseSessionsTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DAL/DAOImplementation.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerDAOImplementation.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/WebApiHost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/utils/QueryParameterUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/utils/BindingUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/utils/PathVariableUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/resource/CustomersCustomerIdInvoicesResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/resource/CustomersCustomerIdResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/resource/CustomersResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/resource/server/AbstractServerResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/resource/server/CustomersCustomerIdInvoicesServerResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/resource/server/CustomersCustomerIdServerResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/representation/Invoice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/representation/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAL/Services/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAL/Factory/CustomerFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DALTest/CustomerDbTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/main/test/java/CustomerDatabaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DAL/SessionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/test/java/CustomerDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/test/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/representation/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskDAOImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAL/Factory/TaskFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/resource/TasksResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BBL/TaskBusiness/TaskBusiness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/resource/server/TasksServerResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BBL/TaskBusiness/TaskBusinessImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/WebApiApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/BBL/CustomerBusiness/CustomerBusiness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REST/resource/server/CustomersServerResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BBL/CustomerBusiness/CustomerBusinessImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAL/SessionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAL/DAOImplementation.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -291,8 +198,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="820" />
-    <option name="width" value="1109" />
+    <option name="x" value="750" />
+    <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -333,23 +240,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BBL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FacturaBackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FacturaBackend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BBL" type="462c0819:PsiDirectoryNode" />
-              <item name="CustomerBusiness" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FacturaBackend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FacturaBackend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DAL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -375,7 +265,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="REST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FacturaBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FacturaBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REST" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FacturaBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FacturaBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REST" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FacturaBackend" type="b2602c69:ProjectViewProjectNode" />
@@ -407,6 +316,11 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FacturaBackend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FacturaBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -419,24 +333,26 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="204b5ea4-304a-44e7-9491-30e8e8a44b66" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543334207554" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544538689256" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="DAL" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Daphne\Github\Fun Assignment 2\Backend\Fun-Assignment-2\FacturaBackend\src\main\java\REST\representation" />
+      <recent name="D:\Daphne\Github\Fun Assignment 2\Backend\Fun-Assignment-2\FacturaBackend\src\main\java\REST" />
+      <recent name="Z:\Storage\Github\Fun Assignment 2\Fun-Assignment-2\FacturaBackend\src\main\test" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="" />
       <recent name="Models" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="Z:\Storage\Github\Fun Assignment 2\Fun-Assignment-2\FacturaBackend\src\main\test" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DAL" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -451,7 +367,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerDatabaseTest">
+  <component name="RunManager" selected="Application.WebApiHost">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="FacturaBackend" />
@@ -459,9 +375,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchemaGeneratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SchemaGeneratorDemo" />
+    <configuration name="WebApiHost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="REST.WebApiHost" />
       <module name="FacturaBackend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="REST.resource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FacturaBackend" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerDAOTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -486,16 +416,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.SchemaGeneratorDemo" />
+      <item itemvalue="Application.WebApiHost" />
       <item itemvalue="JUnit.DatabaseSessionsTests.testConnection" />
       <item itemvalue="JUnit.CustomerDatabaseTest" />
+      <item itemvalue="JUnit.CustomerDAOTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebApiHost" />
         <item itemvalue="JUnit.CustomerDatabaseTest" />
+        <item itemvalue="JUnit.CustomerDAOTest" />
         <item itemvalue="JUnit.DatabaseSessionsTests.testConnection" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SchemaGeneratorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -511,49 +443,59 @@
       <updated>1542107164869</updated>
       <workItem from="1542107353473" duration="16746000" />
       <workItem from="1543306242568" duration="19226000" />
+      <workItem from="1543387203117" duration="125000" />
+      <workItem from="1543605695983" duration="3080000" />
+      <workItem from="1543822651423" duration="72000" />
+      <workItem from="1543822860209" duration="169000" />
+      <workItem from="1543989813753" duration="4582000" />
+      <workItem from="1544087490012" duration="779000" />
+      <workItem from="1544197624790" duration="5505000" />
+      <workItem from="1544205821250" duration="443000" />
+      <workItem from="1544429645523" duration="39000" />
+      <workItem from="1544443879704" duration="1120000" />
+      <workItem from="1544524053374" duration="6130000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerDatabaseTest - 2018.11.27 at 15h 12m 52s.xml">
-      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    <history-entry file="CustomerDAOTest - 2018.12.07 at 17h 32m 02s.xml">
+      <configuration name="CustomerDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerDatabaseTest - 2018.11.27 at 15h 30m 19s.xml">
-      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    <history-entry file="CustomerDAOTest - 2018.12.07 at 17h 32m 49s.xml">
+      <configuration name="CustomerDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerDatabaseTest - 2018.11.27 at 15h 34m 03s.xml">
-      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    <history-entry file="CustomerDAOTest - 2018.12.07 at 17h 33m 29s.xml">
+      <configuration name="CustomerDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerDatabaseTest - 2018.11.27 at 15h 43m 38s.xml">
-      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    <history-entry file="CustomerDAOTest - 2018.12.07 at 17h 35m 33s.xml">
+      <configuration name="CustomerDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerDatabaseTest - 2018.11.27 at 15h 49m 08s.xml">
-      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    <history-entry file="CustomerDAOTest - 2018.12.07 at 17h 55m 28s.xml">
+      <configuration name="CustomerDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerDatabaseTest - 2018.11.27 at 15h 50m 04s.xml">
-      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    <history-entry file="CustomerDAOTest - 2018.12.07 at 18h 01m 32s.xml">
+      <configuration name="CustomerDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerDatabaseTest - 2018.11.27 at 15h 51m 54s.xml">
-      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    <history-entry file="CustomerDAOTest - 2018.12.07 at 18h 02m 44s.xml">
+      <configuration name="CustomerDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerDatabaseTest - 2018.11.27 at 15h 51m 56s.xml">
-      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    <history-entry file="CustomerDAOTest - 2018.12.10 at 13h 14m 20s.xml">
+      <configuration name="CustomerDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerDatabaseTest - 2018.11.27 at 16h 39m 08s.xml">
-      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    <history-entry file="CustomerDAOTest - 2018.12.10 at 13h 15m 02s.xml">
+      <configuration name="CustomerDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerDatabaseTest - 2018.11.27 at 16h 39m 39s.xml">
+    <history-entry file="CustomerDatabaseTest - 2018.12.11 at 15h 20m 17s.xml">
       <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35972000" />
+    <option name="totallyTimeSpent" value="60082000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1424" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.15347913" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.2442953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" sideWeight="0.50139666" side_tool="true" weight="0.24966443" />
       <window_info id="Designer" order="3" />
@@ -563,15 +505,15 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13080496" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44832402" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37290502" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3282123" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -584,122 +526,214 @@
       <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskService.java</url>
+          <line>26</line>
+          <properties class="DAL.TaskDAL.TaskService" method="readAll">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskService.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerService.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/204b5ea4-304a-44e7-9491-30e8e8a44b66/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SchemaGeneratorDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Invoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Invoice#0;class#Invoice#0" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/DAL/SessionHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/DatabaseSessionsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/CustomerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/java/CustomerDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        <state relative-caret-position="136">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerDAOImplementation.java">
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/query/criteria/internal/CriteriaBuilderImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#6376#6377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/internal/SessionFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="781" selection-start-line="781" selection-end-line="781" />
+          <folding>
+            <element signature="e#36853#36854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/query/criteria/internal/compile/CriteriaCompiler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/query/criteria/internal/CriteriaQueryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/metamodel/internal/AbstractType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/query/criteria/internal/path/RootImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#1483#1484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/query/criteria/internal/QueryStructure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="e#3582#3583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REST/representation/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/Factory/TaskFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BBL/Business.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/Factory/CustomerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="method#create#1;class#CustomerFactory#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BBL/TaskBusiness/TaskBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REST/resource/server/TasksServerResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#represent#0;class#TasksServerResource#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REST/WebApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REST/WebApiHost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REST/resource/TasksResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BBL/TaskBusiness/TaskBusinessImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#modelCustomerToRestCustomer#0;class#TaskBusinessImplementation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskDAOImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="94" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
@@ -709,85 +743,256 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/HibernateUtility.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerDAOImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="107" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BBL/CustomerBusiness/CustomerBusinessImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#newCustomer#0;class#CustomerBusinessImplementation#0" />
+            <element signature="method#newCustomer#1;class#CustomerBusinessImplementation#0" />
+            <element signature="method#createCustomerFromRest#0;class#CustomerBusinessImplementation#0" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1754#1755#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BBL/Business.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/REST/resource/server/CustomersServerResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/CustomerDatabaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="92" column="55" lean-forward="true" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testCustomers#0;class#CustomerDatabaseTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/SessionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/DAOImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#create#0;class#DAOImplementation#0" />
-            <element signature="method#readAll#0;class#DAOImplementation#0" />
-            <element signature="method#update#0;class#DAOImplementation#0" />
-            <element signature="method#delete#0;class#DAOImplementation#0" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BBL/CustomerBusiness/CustomerBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/CustomerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REST/resource/CustomersResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/resource/ResourceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+          <folding>
+            <element signature="e#7375#7376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/HibernateUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/SessionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/internal/AbstractSharedSessionContract.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/engine/spi/SharedSessionContractImplementor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#2043#2044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/internal/SessionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="676" selection-start-line="676" selection-end-line="676" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAL/DAOImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#649#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/resource/ServerResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="1069" selection-start-line="1069" selection-end-line="1069" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/resource/Finder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="245" selection-start-line="245" selection-end-line="245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/engine/application/ApplicationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="386" selection-start-line="386" selection-end-line="386" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/routing/Router.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="642" selection-start-line="642" selection-end-line="642" />
+          <folding>
+            <element signature="e#15473#15474#0" expanded="true" />
+            <element signature="e#15519#15520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/engine/application/StatusFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/routing/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="216" selection-start-line="216" selection-end-line="216" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/engine/CompositeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="216" selection-start-line="216" selection-end-line="216" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="409" selection-start-line="409" selection-end-line="409" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="508" selection-start-line="508" selection-end-line="508" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/engine/connector/ServerHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet/2.3.1/org.restlet-2.3.1-sources.jar!/org/restlet/engine/adapter/HttpServerHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/restlet/jse/org.restlet.ext.jetty/2.3.1/org.restlet.ext.jetty-2.3.1.jar!/org/restlet/ext/jetty/JettyServerHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="286" selection-start-line="286" selection-end-line="286" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.2.6.v20141205/jetty-server-9.2.6.v20141205.jar!/org/eclipse/jetty/server/HttpChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="337" selection-start-line="337" selection-end-line="337" />
         </state>
       </provider>
     </entry>
@@ -797,10 +1002,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>FacturaBackend:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

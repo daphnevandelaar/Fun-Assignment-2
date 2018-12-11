@@ -1,5 +1,7 @@
 package DAL;
 
+import Models.Customer;
+
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import java.io.Serializable;
@@ -17,7 +19,6 @@ public abstract class DAOImplementation<I, E> extends SessionHandler implements 
 
     public void create(E entity) {
         getCurrentSession().persist(entity);
-        databaseInteractionWithTransaction();
     }
 
     public E read(I index) {
