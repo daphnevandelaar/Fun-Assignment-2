@@ -10,6 +10,7 @@ public class Task {
 
     private java.lang.String id;
     private java.lang.String description;
+    private java.lang.String amount;
     private java.lang.String price;
 
     public java.lang.String getId() {
@@ -25,6 +26,9 @@ public class Task {
     public void setDescription(java.lang.String description) {
         this.description = description;
     }
+
+    public java.lang.String getAmount(){ return amount; }
+    public void setAmount(java.lang.String amount){ this.amount = amount; }
 
     public java.lang.String getPrice() {
         return price;

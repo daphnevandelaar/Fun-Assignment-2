@@ -1,55 +1,59 @@
 package REST.representation;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import Models.Customer;
+import Models.Task;
 
-import java.util.ArrayList;
+import java.math.BigDecimal;
+import java.util.Set;
+
 
 public class Invoice {
-    /** Default serial version ID. */
     private static final long serialVersionUID = 1L;
 
-    private java.lang.String id;
-    private java.lang.String Customer;
-    private java.lang.String totalPrice;
-    private java.lang.String date;
-    private java.util.List<java.lang.String> Tasks;
+    private int invoiceid;
+    private Customer customer;
+    private Set<Task> tasks;
+    private BigDecimal totalprice;
+    private BigDecimal totalpriceInclTax;
 
-    public java.lang.String getId() {
-        return id;
-    }
-    public void setId(java.lang.String id) {
-        this.id = id;
+    public Invoice() {
+
     }
 
-    public java.lang.String getCustomer() {
-        return Customer;
+    public int getInvoiceid() {
+        return this.invoiceid;
     }
-    public void setCustomer(java.lang.String Customer) {
-        this.Customer = Customer;
-    }
-
-    public java.lang.String getTotalPrice() {
-        return totalPrice;
-    }
-    public void setTotalPrice(java.lang.String totalPrice) {
-        this.totalPrice = totalPrice;
+    public void setInvoiceid(int invoiceid) {
+        this.invoiceid = invoiceid;
     }
 
-    public java.lang.String getDate() {
-        return date;
+
+    public Customer getCustomer() {
+        return this.customer;
     }
-    public void setDate(java.lang.String date) {
-        this.date = date;
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
     }
-    
-    public java.util.List<java.lang.String> getTasks() {
-        if (Tasks == null) {
-            Tasks = new ArrayList<java.lang.String>();
-        }
-        return Tasks;
+
+    public Set<Task> getTasks() {
+        return this.tasks;
     }
-    public void setTasks(java.util.List<java.lang.String> Tasks) {
-        this.Tasks = Tasks;
+    public void setTasks(Set<Task> tasks) {
+        this.tasks = tasks;
+    }
+
+    public BigDecimal getTotalprice() {
+        return this.totalprice;
+    }
+    public void setTotalprice(BigDecimal totalprice) {
+        this.totalprice = totalprice;
+    }
+
+    public BigDecimal getTotalpriceInclTax() {
+        return totalpriceInclTax;
+    }
+    public void setTotalpriceInclTax(BigDecimal totalpriceInclTax) {
+        this.totalpriceInclTax = totalpriceInclTax;
     }
 
 }

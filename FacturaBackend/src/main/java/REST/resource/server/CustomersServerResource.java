@@ -27,11 +27,11 @@ public class CustomersServerResource extends AbstractServerResource implements C
 
         try {
 		
-        // Query parameters
+            // Query parameters
 
-	    result = customerBusiness.getAllCustomersToRest();
-	    
-	    // Initialize here your bean
+            result = customerBusiness.getAllCustomersToRest();
+
+            // Initialize here your bean
          } catch (Exception ex) {
             // In a real code, customize handling for each type of exception
             getLogger().log(Level.WARNING, "Error when executing the method", ex);

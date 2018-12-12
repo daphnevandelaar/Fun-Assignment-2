@@ -1,9 +1,7 @@
 package REST;
 
-import REST.resource.server.CustomersCustomerIdInvoicesServerResource;
-import REST.resource.server.CustomersCustomerIdServerResource;
-import REST.resource.server.CustomersServerResource;
-import REST.resource.server.TasksServerResource;
+import DAL.InvoiceDAL.InvoiceService;
+import REST.resource.server.*;
 import org.restlet.Application;
 import org.restlet.Context;
 import org.restlet.Request;
@@ -31,6 +29,7 @@ public class WebApiApplication extends Application {
     public static final String ROUTE_CUSTOMERSCUSTOMERID = "/customers/{customerId}";
     public static final String ROUTE_CUSTOMERSCUSTOMERIDINVOICES = "/customers/{customerId}/invoices";
     public static final String ROUTE_TASKS = "/tasks";
+    public static final String ROUTE_INVOICES = "/invoices";
     /*
      * Define role names
      */
@@ -99,6 +98,7 @@ public class WebApiApplication extends Application {
         apiRouter.attach(ROUTE_CUSTOMERSCUSTOMERID, CustomersCustomerIdServerResource.class);
         apiRouter.attach(ROUTE_CUSTOMERSCUSTOMERIDINVOICES, CustomersCustomerIdInvoicesServerResource.class);
         apiRouter.attach(ROUTE_TASKS, TasksServerResource.class);
+        apiRouter.attach(ROUTE_INVOICES, InvoiceServerResource.class);
         return apiRouter;
 	}
 

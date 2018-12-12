@@ -49,12 +49,12 @@ public class Task {
         this.price = price;
     }
 
-    @ManyToMany(mappedBy = "tasks")
-    public Set<Invoice> getInvoices() {
-        return invoices;
-    }
-    public void setInvoices(Set<Invoice> invoices) {
-        this.invoices = invoices;
-    }
+//    @ManyToMany(mappedBy = "tasks")
+//    public Set<Invoice> getInvoices() {
+//        return invoices;
+//    }
+//    public void setInvoices(Set<Invoice> invoices) {
+//        this.invoices = invoices;
+//    }
 
 }

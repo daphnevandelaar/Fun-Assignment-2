@@ -1,5 +1,7 @@
 package Models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.Set;
@@ -39,7 +41,7 @@ public class Invoice {
     @JoinTable(
             name = "Tasks_Invoice",
             joinColumns = {
-                    @JoinColumn(name = "customerid")
+                    @JoinColumn(name = "taskid")
             },
             inverseJoinColumns = {
                     @JoinColumn(name = "invoiceid")

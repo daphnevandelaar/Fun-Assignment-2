@@ -1,4 +1,6 @@
 package BBL;
 
-public class Business {
+public interface Business {
+    //TODO: create with abstract entities
+    void create();
 }

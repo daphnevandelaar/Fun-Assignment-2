@@ -14,13 +14,17 @@ public class TaskService implements TaskDAO {
 
     @Override
     public void create(Task entity) {
-        System.out.println("Task create service not implemented");
+        taskDAO.openCurrentSessionwithTransaction();
+        taskDAO.create(entity);
+        taskDAO.closeCurrentSessionwithTransaction();
     }
 
     @Override
     public Task read(Integer index) {
-        System.out.println("Task read by id service not implemented");
-        return null;
+        taskDAO.openCurrentSession();
+        Task task = taskDAO.read(index);
+        taskDAO.closeCurrentSession();
+        return task;
     }
 
     @Override

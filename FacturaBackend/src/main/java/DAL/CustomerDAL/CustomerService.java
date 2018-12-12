@@ -19,9 +19,9 @@ public class CustomerService implements CustomerDAO {
     }
 
     public Customer read(Integer index) {
-        customerDAO.getCurrentSession();
+        customerDAO.openCurrentSessionwithTransaction();
         Customer customer = customerDAO.read(index);
-        customerDAO.databaseInteractionWithTransaction();
+        customerDAO.closeCurrentSessionwithTransaction();
         return customer;
     }
 
@@ -33,6 +33,8 @@ public class CustomerService implements CustomerDAO {
         }
         Set<Customer> customers =customerDAO.readAll();
         return customers;
+//        System.out.println("Method adjusted in CustomerService");
+//        return customerDAO.readAll();
     }
 
     public void update(Customer entity) {
