@@ -13,9 +13,9 @@ public class CustomerService implements CustomerDAO {
     }
 
     public void create(Customer entity) {
-        customerDAO.getCurrentSession();
+        customerDAO.openCurrentSessionwithTransaction();
         customerDAO.create(entity);
-        customerDAO.databaseInteractionWithTransaction();
+        customerDAO.closeCurrentSessionwithTransaction();
     }
 
     public Customer read(Integer index) {
@@ -26,9 +26,12 @@ public class CustomerService implements CustomerDAO {
     }
 
     public Set<Customer> readAll() {
-        customerDAO.getCurrentSession();
+        try{
+            customerDAO.getCurrentSession();
+        }catch (Exception ex){
+            System.out.println(ex.getMessage());
+        }
         Set<Customer> customers =customerDAO.readAll();
-        customerDAO.databaseInteractionWithTransaction();
         return customers;
     }
 
