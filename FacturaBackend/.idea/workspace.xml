@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e21b9b8-3eb3-4870-a549-7f763865d84a" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/BBL/InvoiceBusiness/InvoiceBusiness.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/BBL/InvoiceBusiness/InvoiceBusinessImplementation.java" afterDir="false" />
@@ -138,6 +139,10 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
 >>>>>>> master
       <change beforePath="$PROJECT_DIR$/target/test-classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hibernate.cfg.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/resources/hibernate.cfg.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -236,8 +241,31 @@
     </leaf>
 =======
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
 >>>>>>> master
+=======
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/java/CustomerDatabaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/test/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> Stashed changes
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -331,7 +359,6 @@
 =======
         <option value="$PROJECT_DIR$/src/main/test/java/CustomerDatabaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/java/CustomerDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/main/test/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/REST/representation/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAL/TaskDAL/TaskDAOImplementation.java" />
@@ -349,7 +376,11 @@
         <option value="$PROJECT_DIR$/src/main/java/DAL/CustomerDAL/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAL/SessionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAL/DAOImplementation.java" />
+<<<<<<< Updated upstream
 >>>>>>> master
+=======
+        <option value="$PROJECT_DIR$/src/main/test/resources/hibernate.cfg.xml" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -375,7 +406,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< Updated upstream
       <pane id="Scope" />
+=======
+>>>>>>> Stashed changes
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -553,6 +587,10 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+<<<<<<< Updated upstream
+=======
+      <pane id="Scope" />
+>>>>>>> Stashed changes
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -560,11 +598,15 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="204b5ea4-304a-44e7-9491-30e8e8a44b66" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544646059447" />
 =======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544538689256" />
 >>>>>>> master
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544710845670" />
+>>>>>>> Stashed changes
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -613,12 +655,16 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   <component name="RunManager" selected="JUnit.InvoiceServiceTest">
     <configuration name="WebApiHost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="REST.WebApiHost" />
 =======
   <component name="RunManager" selected="Application.WebApiHost">
+=======
+  <component name="RunManager" selected="JUnit.CustomerDatabaseTest">
+>>>>>>> Stashed changes
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
 >>>>>>> master
@@ -711,8 +757,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebApiHost" />
         <item itemvalue="JUnit.CustomerDatabaseTest" />
+        <item itemvalue="Application.WebApiHost" />
         <item itemvalue="JUnit.CustomerDAOTest" />
         <item itemvalue="JUnit.DatabaseSessionsTests.testConnection" />
         <item itemvalue="Application.Main" />
@@ -742,15 +788,21 @@
       <workItem from="1544205821250" duration="443000" />
       <workItem from="1544429645523" duration="39000" />
       <workItem from="1544443879704" duration="1120000" />
+<<<<<<< Updated upstream
       <workItem from="1544524053374" duration="6130000" />
 <<<<<<< HEAD
       <workItem from="1544632764957" duration="9522000" />
 =======
 >>>>>>> master
+=======
+      <workItem from="1544524053374" duration="6894000" />
+      <workItem from="1544710562445" duration="231000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <history-entry file="InvoiceBusinessTest - 2018.12.12 at 19h 08m 03s.xml">
       <configuration name="InvoiceBusinessTest" configurationId="JUnit" />
@@ -787,24 +839,9 @@
     <option name="totallyTimeSpent" value="81288000" />
 =======
     <history-entry file="CustomerDAOTest - 2018.12.07 at 17h 32m 02s.xml">
-      <configuration name="CustomerDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerDAOTest - 2018.12.07 at 17h 32m 49s.xml">
-      <configuration name="CustomerDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerDAOTest - 2018.12.07 at 17h 33m 29s.xml">
-      <configuration name="CustomerDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerDAOTest - 2018.12.07 at 17h 35m 33s.xml">
-      <configuration name="CustomerDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerDAOTest - 2018.12.07 at 17h 55m 28s.xml">
-      <configuration name="CustomerDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerDAOTest - 2018.12.07 at 18h 01m 32s.xml">
-      <configuration name="CustomerDAOTest" configurationId="JUnit" />
-    </history-entry>
+=======
     <history-entry file="CustomerDAOTest - 2018.12.07 at 18h 02m 44s.xml">
+>>>>>>> Stashed changes
       <configuration name="CustomerDAOTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CustomerDAOTest - 2018.12.10 at 13h 14m 20s.xml">
@@ -816,19 +853,46 @@
     <history-entry file="CustomerDatabaseTest - 2018.12.11 at 15h 20m 17s.xml">
       <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CustomerDatabaseTest - 2018.12.13 at 15h 16m 56s.xml">
+      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerDatabaseTest - 2018.12.13 at 15h 18m 39s.xml">
+      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerDatabaseTest - 2018.12.13 at 15h 18m 57s.xml">
+      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerDatabaseTest - 2018.12.13 at 15h 20m 01s.xml">
+      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerDatabaseTest - 2018.12.13 at 15h 20m 13s.xml">
+      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerDatabaseTest - 2018.12.13 at 15h 20m 43s.xml">
+      <configuration name="CustomerDatabaseTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="60082000" />
 >>>>>>> master
+=======
+    <option name="totallyTimeSpent" value="61087000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.16660039" />
 =======
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.2442953" />
 >>>>>>> master
+=======
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.24765101" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" sideWeight="0.50139666" side_tool="true" weight="0.24966443" />
       <window_info id="Designer" order="3" />
@@ -838,11 +902,15 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35603714" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37229103" />
 =======
       <window_info anchor="bottom" id="Run" order="2" weight="0.44832402" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44832402" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37290502" />
 >>>>>>> master
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -935,6 +1003,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/DAL/SessionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1023,6 +1092,8 @@
             <element signature="method#newCustomer#1;class#CustomerBusinessImplementation#0" />
             <element signature="method#createCustomerFromRest#0;class#CustomerBusinessImplementation#0" />
 =======
+=======
+>>>>>>> Stashed changes
     <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/internal/SessionFactoryImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -1753,6 +1824,20 @@
         <state relative-caret-position="140">
           <caret line="337" selection-start-line="337" selection-end-line="337" />
 >>>>>>> master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/CustomerDatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
