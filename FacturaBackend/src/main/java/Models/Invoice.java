@@ -65,7 +65,7 @@ public class Invoice {
         return totalpriceInclTax;
     }
     public void setTotalpriceInclTax(BigDecimal totalpriceInclTax) {
-        this.totalpriceInclTax = totalpriceInclTax;
+        this.totalpriceInclTax = totalpriceInclTax.multiply(new BigDecimal(1.21));
     }
 
 }

@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Backend" />
         <module name="FacturaBackend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="FacturaBackend" target="1.7" />
+      <module name="Backend" target="1.7" />
+      <module name="FacturaBackend" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: CustomerDatabaseTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.796 sec <<< FAILURE! - in CustomerDatabaseTest
+testA_createCustomer_Successfull(CustomerDatabaseTest)  Time elapsed: 0.136 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at CustomerDatabaseTest.testA_createCustomer_Successfull(CustomerDatabaseTest.java:58)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at CustomerDatabaseTest.testA_createCustomer_Successfull(CustomerDatabaseTest.java:58)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDatabaseTest.testA_createCustomer_Successfull(CustomerDatabaseTest.java:58)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDatabaseTest.testA_createCustomer_Successfull(CustomerDatabaseTest.java:58)
+
+testB_readCustomers_Successfull(CustomerDatabaseTest)  Time elapsed: 0.142 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at CustomerDatabaseTest.testB_readCustomers_Successfull(CustomerDatabaseTest.java:67)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at CustomerDatabaseTest.testB_readCustomers_Successfull(CustomerDatabaseTest.java:67)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDatabaseTest.testB_readCustomers_Successfull(CustomerDatabaseTest.java:67)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDatabaseTest.testB_readCustomers_Successfull(CustomerDatabaseTest.java:67)
+
+testC_readCustomer_ById_Successfull(CustomerDatabaseTest)  Time elapsed: 0.151 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at CustomerDatabaseTest.testC_readCustomer_ById_Successfull(CustomerDatabaseTest.java:74)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at CustomerDatabaseTest.testC_readCustomer_ById_Successfull(CustomerDatabaseTest.java:74)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDatabaseTest.testC_readCustomer_ById_Successfull(CustomerDatabaseTest.java:74)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDatabaseTest.testC_readCustomer_ById_Successfull(CustomerDatabaseTest.java:74)
+
+testD_readCustomers_OtherWay_Successfull(CustomerDatabaseTest)  Time elapsed: 0.101 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at CustomerDatabaseTest.testD_readCustomers_OtherWay_Successfull(CustomerDatabaseTest.java:81)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at CustomerDatabaseTest.testD_readCustomers_OtherWay_Successfull(CustomerDatabaseTest.java:81)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDatabaseTest.testD_readCustomers_OtherWay_Successfull(CustomerDatabaseTest.java:81)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDatabaseTest.testD_readCustomers_OtherWay_Successfull(CustomerDatabaseTest.java:81)
+
+testE_updateCustomers_Successfull(CustomerDatabaseTest)  Time elapsed: 0.122 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at CustomerDatabaseTest.testE_updateCustomers_Successfull(CustomerDatabaseTest.java:92)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at CustomerDatabaseTest.testE_updateCustomers_Successfull(CustomerDatabaseTest.java:92)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDatabaseTest.testE_updateCustomers_Successfull(CustomerDatabaseTest.java:92)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDatabaseTest.testE_updateCustomers_Successfull(CustomerDatabaseTest.java:92)
+
+testF_deleteCustomer_Successful(CustomerDatabaseTest)  Time elapsed: 0.138 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at CustomerDatabaseTest.testF_deleteCustomer_Successful(CustomerDatabaseTest.java:99)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at CustomerDatabaseTest.testF_deleteCustomer_Successful(CustomerDatabaseTest.java:99)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDatabaseTest.testF_deleteCustomer_Successful(CustomerDatabaseTest.java:99)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDatabaseTest.testF_deleteCustomer_Successful(CustomerDatabaseTest.java:99)
+

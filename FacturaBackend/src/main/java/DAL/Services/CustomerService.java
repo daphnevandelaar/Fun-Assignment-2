@@ -5,6 +5,7 @@ import DAL.CustomerDAL.CustomerDAOImplementation;
 import Models.Customer;
 
 import java.util.List;
+import java.util.Set;
 
 public class CustomerService implements CustomerDAO {
     private static CustomerDAOImplementation customerDAO;
@@ -23,18 +24,19 @@ public class CustomerService implements CustomerDAO {
         customerDAO.closeCurrentSessionwithTransaction();
     }
 
-    public List<Customer> readAll() {
+    @Override
+    public Customer read(Integer index) {
         customerDAO.openCurrentSessionwithTransaction();
-        List<Customer> customers = customerDAO.readAll();
-        customerDAO.closeCurrentSessionwithTransaction();
-        return customers;
-    }
-
-    public Customer readById(Integer id) {
-        customerDAO.openCurrentSessionwithTransaction();
-        Customer customer = customerDAO.readById(id);
+        Customer customer = customerDAO.read(index);
         customerDAO.closeCurrentSessionwithTransaction();
         return customer;
+    }
+
+    public Set<Customer> readAll() {
+        customerDAO.openCurrentSessionwithTransaction();
+        Set<Customer> customers = customerDAO.readAll();
+        customerDAO.closeCurrentSessionwithTransaction();
+        return customers;
     }
 
     public void update(Customer entity) {

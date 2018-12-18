@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: CustomerDAOTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.928 sec <<< FAILURE! - in CustomerDAOTest
+testGetAllCustomersFromService(CustomerDAOTest)  Time elapsed: 1.575 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at CustomerDAOTest.testGetAllCustomersFromService(CustomerDAOTest.java:16)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at CustomerDAOTest.testGetAllCustomersFromService(CustomerDAOTest.java:16)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDAOTest.testGetAllCustomersFromService(CustomerDAOTest.java:16)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDAOTest.testGetAllCustomersFromService(CustomerDAOTest.java:16)
+
+testGetAllCustomersFromBusiness(CustomerDAOTest)  Time elapsed: 0.284 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at CustomerDAOTest.testGetAllCustomersFromBusiness(CustomerDAOTest.java:23)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at CustomerDAOTest.testGetAllCustomersFromBusiness(CustomerDAOTest.java:23)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDAOTest.testGetAllCustomersFromBusiness(CustomerDAOTest.java:23)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at CustomerDAOTest.testGetAllCustomersFromBusiness(CustomerDAOTest.java:23)
+

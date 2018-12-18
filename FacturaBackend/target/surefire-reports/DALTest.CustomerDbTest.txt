@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: DALTest.CustomerDbTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.309 sec <<< FAILURE! - in DALTest.CustomerDbTest
+readCustomer(DALTest.CustomerDbTest)  Time elapsed: 0.155 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at DALTest.CustomerDbTest.readCustomer(CustomerDbTest.java:36)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at DALTest.CustomerDbTest.readCustomer(CustomerDbTest.java:36)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at DALTest.CustomerDbTest.readCustomer(CustomerDbTest.java:36)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at DALTest.CustomerDbTest.readCustomer(CustomerDbTest.java:36)
+
+createCustomer(DALTest.CustomerDbTest)  Time elapsed: 0.154 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at DALTest.CustomerDbTest.createCustomer(CustomerDbTest.java:30)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at DALTest.CustomerDbTest.createCustomer(CustomerDbTest.java:30)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at DALTest.CustomerDbTest.createCustomer(CustomerDbTest.java:30)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at DALTest.CustomerDbTest.createCustomer(CustomerDbTest.java:30)
+

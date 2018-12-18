@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: InvoiceBusinessTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.596 sec <<< FAILURE! - in InvoiceBusinessTest
+TestD_createInvoice_Successfull(InvoiceBusinessTest)  Time elapsed: 0.149 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+
+testB_toRestObject(InvoiceBusinessTest)  Time elapsed: 0.155 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+
+testC_readInvoices_Successfull(InvoiceBusinessTest)  Time elapsed: 0.155 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+
+testC_readRestInvoices_Successfull(InvoiceBusinessTest)  Time elapsed: 0.137 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+Caused by: java.sql.SQLException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+Caused by: org.mariadb.jdbc.internal.common.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: YES)
+	at InvoiceBusinessTest.objectCreation(InvoiceBusinessTest.java:81)
+

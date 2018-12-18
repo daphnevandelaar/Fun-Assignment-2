@@ -61,6 +61,8 @@ public class InvoiceServerResource extends AbstractServerResource implements Inv
     public void add(Models.Invoice bean) throws Exception {
         checkGroups(post3AllowedGroups, post3DeniedGroups);
 
+        System.out.println(bean.getCustomer().getCustomerid() + " " + bean.getTasks().size() );
+
         if (bean==null) {
             throw new ResourceException(Status.CLIENT_ERROR_BAD_REQUEST);
         }
